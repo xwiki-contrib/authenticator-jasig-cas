@@ -41,10 +41,10 @@ Authenticate user on main wiki based on Jasig CAS server. It creates XWiki users
 # TODO
 
 * Logout from CAS is not implemented yet. As workaround you could change menuview.vm in your skin. Change the generation of logout url from
-
-	#set ($logouturl = $xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url($xwiki.relativeRequestURL)"))
+	
+	\#set ($logouturl = $xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url($xwiki.relativeRequestURL)"))
 	
 	to something like
-
-	#set ($logouturl = $xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url('https://localhost:8443/cas/logout')"))
+	
+	\#set ($logouturl = $xwiki.getURL('XWiki.XWikiLogout', 'logout', "xredirect=$escapetool.url('https://localhost:8443/cas/logout')"))
 
