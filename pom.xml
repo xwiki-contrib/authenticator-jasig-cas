@@ -31,7 +31,7 @@
 	<groupId>org.xwiki.contrib.authentication</groupId>
 	<artifactId>authenticator-jasig-cas</artifactId>
 	<name>Authenticator Jasig CAS</name>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<description>XWiki authenticator based on Jasig CAS</description>
 	<properties>
@@ -85,7 +85,7 @@
 		<connection>scm:git:git://github.com/xwiki-contrib/authenticator-jasig-cas.git</connection>
 		<developerConnection>scm:git:git@github.com:xwiki-contrib/authenticator-jasig-cas.git</developerConnection>
 		<url>https://github.com/xwiki-contrib/authenticator-jasig-cas</url>
-	  <tag>authenticator-jasig-cas-1.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
