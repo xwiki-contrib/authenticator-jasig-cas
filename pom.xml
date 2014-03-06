@@ -21,8 +21,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  *
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
 		<groupId>org.xwiki.commons</groupId>
 		<artifactId>xwiki-commons-pom</artifactId>
@@ -32,7 +31,7 @@
 	<groupId>org.xwiki.contrib.authentication</groupId>
 	<artifactId>authenticator-jasig-cas</artifactId>
 	<name>Authenticator Jasig CAS</name>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 	<description>XWiki authenticator based on Jasig CAS</description>
 	<properties>
@@ -86,7 +85,8 @@
 		<connection>scm:git:git://github.com/xwiki-contrib/authenticator-jasig-cas.git</connection>
 		<developerConnection>scm:git:git@github.com:xwiki-contrib/authenticator-jasig-cas.git</developerConnection>
 		<url>https://github.com/xwiki-contrib/authenticator-jasig-cas</url>
-	</scm>
+	  <tag>authenticator-jasig-cas-1.0</tag>
+  </scm>
 
 	<distributionManagement>
 		<repository>
