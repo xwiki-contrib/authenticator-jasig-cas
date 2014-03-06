@@ -73,4 +73,18 @@
 			<timezone>+1</timezone>
 		</developer>
 	</developers>
+	
+	<scm>
+		<connection>scm:git:git://github.com/xwiki-contrib/authenticator-jasig-cas.git</connection>
+		<developerConnection>scm:git:git@github.com:xwiki-contrib/authenticator-jasig-cas.git</developerConnection>
+		<url>https://github.com/xwiki-contrib/authenticator-jasig-cas</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>xwiki-staging</id>
+			<name>XWiki Staging Repository</name>
+			<url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
 </project>
